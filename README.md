@@ -28,7 +28,9 @@ This application utilies
 To use this application yourself, first you'll want to signup for a spotify dev account (it's free) and then clone this repository.  Inside of the appications root, you'll need to make a new .env file.  Inside it you will add your spotify api-key and SECRECT.  Once you have done that you will because to start giving the application commands in bash/terminal.
 
 Your file should look like this.
+<addr>
 # Spotify API keys
 
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
+</addr>
