@@ -1,4 +1,4 @@
-**Liri - Language Interpretation and Recognition Interface
+**Liri - Language Interpretation and Recognition Interface**
 
 The purpose of this application is to allow a user to perform multiple different actions from the command line. Below they are listed.
 
