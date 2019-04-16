@@ -9,6 +9,7 @@ The purpose of this application is to allow a user to perform multiple different
   * *do-what-it-says*     --- (reads a command from a text file and executes it)
   
 Commands are inputed in the following format *node liri.js movie-this interstellar*
+
 For more examples please see the screenshots folder.
 
 
