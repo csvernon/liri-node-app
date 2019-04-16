@@ -1,10 +1,11 @@
 require("dotenv").config();
+var axios = require("axios");
+var fs = require('fs');
 var keys = require("./keys.js");
 var moment = require("moment");
-var fs = require('fs');
-var axios = require("axios");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+
 var command = process.argv[2];
 var search = "";
 for (i = 3; i < process.argv.length; i++) {
@@ -56,7 +57,7 @@ function track(search) {
             console.log("Album: " + song.album.name);
         }
     })
-}
+};
 
 function concert(search) {
     axios.get("https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp")
@@ -72,7 +73,7 @@ function concert(search) {
             console.log("We appear to have no concerts available for " + search + ". Sorry about that!")
 
         })
-}
+};
 
 function omdb(search) {
     axios.get("http://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy&tomatoes=true&r=json")
@@ -92,7 +93,7 @@ function omdb(search) {
             }
         })
 
-}
+};
 
 function doWhatItSays() {
     fs.readFile('random.txt', "utf8", function (error, data) {
@@ -109,4 +110,4 @@ function doWhatItSays() {
         }
 
     });
-}
+};
