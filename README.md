@@ -26,7 +26,7 @@ This application utilies
 * node-omdb
 * node-spotify-api
 
-To use this application yourself, first you'll want to signup for a spotify dev account (it's free) and then clone this repository.  Inside of the appications root, you'll need to make a new .env file.  Inside it you will add your spotify api-key and SECRECT.  Once you have done that you will because to start giving the application commands in bash/terminal.
+To use this application yourself, first you'll want to signup for a spotify dev account (it's free) and then clone this repository.  Inside of the appications root, you'll need to make a new .env file.  Inside it you will add your spotify ID and SECRECT.  Once you have done that you will because to start giving the application commands in bash/terminal.
 
 Your file should look like this.
 ```
