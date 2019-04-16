@@ -11,7 +11,7 @@ The purpose of this application is to allow a user to perform multiple different
 Commands are inputed in the following format 
 
 **node liri.js movie-this interstellar**
-![alt text](https://gyazo.com/4aa82456cf18a78cda254e95c5a83682 "Example command")
+![alt text](https://github.com/csvernon/liri-node-app/blob/master/screenshots/movie-this%20Interstellar.png "Example command")
 For more examples please see the screenshots folder.
 
 
