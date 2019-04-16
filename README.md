@@ -10,7 +10,8 @@ The purpose of this application is to allow a user to perform multiple different
   
 Commands are inputed in the following format 
 
-**node liri.js movie-this interstellar**
+```node liri.js movie-this interstellar```
+
 ![alt text](https://github.com/csvernon/liri-node-app/blob/master/screenshots/movie-this%20Interstellar.png "Example command")
 
 For more examples please see the screenshots folder.
